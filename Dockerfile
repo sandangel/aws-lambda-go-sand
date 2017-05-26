@@ -1,4 +1,4 @@
-FROM eawsy/eawsy/aws-lambda-go-shim:latest
+FROM eawsy/aws-lambda-go-shim:latest
 
 RUN true \
   && yum -q -e 0 -y update || true \
